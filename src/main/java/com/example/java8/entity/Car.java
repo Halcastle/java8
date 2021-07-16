@@ -3,6 +3,8 @@ package com.example.java8.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.util.Optional;
+
 /**
  * @ClassName Car
  * @Description TODO
@@ -14,4 +16,5 @@ import lombok.Data;
 @AllArgsConstructor
 public class Car {
     private Insurance insurance;
+    private Optional<Insurance> optionalInsurance;
 }

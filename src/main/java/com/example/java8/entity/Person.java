@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.swing.text.html.Option;
+import java.util.Optional;
+
 /**
  * @ClassName Person
  * @Description TODO
@@ -16,4 +19,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Person {
     private Car car;
+    private Optional<Car> optionalCar;
 }
