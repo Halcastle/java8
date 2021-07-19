@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
  * @Date 2021/7/16 18:43
  * @Version 1.0
  **/
-public class CollectionInAction {
+public class CollectorInAction {
     public static void main(String[] args) {
         Consumer consumer = System.out::println;
         consumer.accept("getDishCaloriesAverageByDouble");

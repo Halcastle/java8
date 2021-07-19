@@ -1,5 +1,7 @@
 package com.example.java8.entity;
 
+import lombok.ToString;
+
 /**
  * @ClassName Dish
  * @Description TODO
@@ -7,6 +9,7 @@ package com.example.java8.entity;
  * @Date 2021/7/14 16:16
  * @Version 1.0
  **/
+@ToString
 public class Dish {
     private final String name;
     private final boolean vegetarian;
@@ -29,10 +32,6 @@ public class Dish {
     }
     public Type getType() {
         return type;
-    }
-    @Override
-    public String toString() {
-        return name;
     }
     public enum Type { MEAT, FISH, OTHER }
 }
